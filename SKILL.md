@@ -14,9 +14,8 @@ labunits converts whole columns of a lab-results CSV between conventional
 molecule, so a generic unit library cannot do it. Every shipped factor
 was verified against two independent authorities, and the factor used is
 written next to every converted column so each number can be checked by
-hand. Analytes with no single fixed factor are refused, with the reason
-printed. It does conversion only: no reference ranges, no flagging, no
-interpretation.
+hand. Analytes with no fixed factor are refused, with the reason
+printed. Conversion only: no reference ranges, no flagging, no interpretation.
 
 ## Install
 
