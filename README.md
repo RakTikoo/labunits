@@ -1,5 +1,7 @@
 # labunits — convert lab-result columns between conventional and SI units
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RakTikoo/labunits)
+
 > **Research / educational tool. Not a medical device. Verify every
 > converted value against your laboratory's own reporting before any
 > clinical use.**
@@ -119,6 +121,8 @@ With Scoop (Windows):
 scoop bucket add RakTikoo https://github.com/RakTikoo/scoop-bucket
 scoop install labunits
 ```
+
+**For agent users:** this repository ships a `SKILL.md` for AI agents. Install it with `npx skills add RakTikoo/labunits`.
 
 ## Usage
 
