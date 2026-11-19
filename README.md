@@ -1,4 +1,4 @@
-# labunits
+# labunits — convert lab-result columns between conventional and SI units
 
 > **Research / educational tool. Not a medical device. Verify every
 > converted value against your laboratory's own reporting before any
@@ -20,6 +20,10 @@ converted column, so each number can be checked by hand.
 
 It does conversion **only**: no reference ranges, no flagging, no
 "abnormal" calls, no interpretation.
+
+**Quick install:** `pip install git+https://github.com/RakTikoo/labunits`
+(Python 3.10+, no dependencies, runs offline). Details under
+[Install](#install).
 
 ## Demo
 

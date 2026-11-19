@@ -1,6 +1,6 @@
 ---
 name: labunits
-description: Batch-convert columns of a lab-results CSV between conventional (US) units and SI units (glucose mg/dL to mmol/L, creatinine mg/dL to umol/L, HbA1c percent to mmol/mol, BUN to urea, and 60 verified analytes), writing the exact factor used next to every converted column. Analytes with no single verified factor are refused with the reason. Use when asked to convert lab values or a lab CSV between conventional and SI units, or convert one lab value.
+description: Batch-convert columns of a lab-results CSV between conventional (US) and SI units (glucose mg/dL to mmol/L, creatinine mg/dL to umol/L, HbA1c percent to mmol/mol, BUN to urea; 60 verified analytes), writing the exact factor used next to every converted column. Analytes with no single verified factor are refused with the reason. Use when asked to convert lab values or a lab CSV between conventional and SI units, or convert one lab value. Not for eGFR calculation (use egfr-batch), child growth z-scores (use growthz), de-identification checks (use safeharbor-check), or randomisation lists (use blockrandom).
 license: MIT
 compatibility: Requires Python 3.10+, standard library only, no dependencies. Installing needs network access to GitHub; the tool itself runs fully offline.
 ---

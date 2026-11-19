@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: RakTikoo
+title: "labunits: batch-convert lab-result CSV columns between conventional and SI units, with twice-verified factors"
+version: 0.1.0
+date-released: 2026-11-17
+license: MIT
+url: "https://github.com/RakTikoo/labunits"
+repository-code: "https://github.com/RakTikoo/labunits"
+abstract: >-
+  Batch-converts whole columns of a lab-results CSV between
+  conventional (US) and SI units for 60 analytes, each factor verified
+  against two independent authorities and written next to every
+  converted column; analytes with no single verified factor are
+  refused with the reason. Research and educational tool only; not a
+  medical device. Conversion only: no reference ranges, no flagging,
+  no interpretation.
+keywords:
+  - unit conversion
+  - SI units
+  - laboratory results
+  - clinical chemistry
