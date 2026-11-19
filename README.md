@@ -254,6 +254,15 @@ and `--spec` modes, both directions, with clean-error cases
 the input file) — all of which must fail with a one-line error and no
 output file, never a traceback.
 
+## Use with an AI agent
+
+This repo ships a [SKILL.md](SKILL.md) written to the Agent Skills open
+standard. If your coding agent supports skills, point it at this repo and
+it can install labunits, run it on your CSVs, and read the results for
+you. The skill works as documented when the repo is cloned under its
+real name (`labunits`) — the standard matches a skill to its folder
+name.
+
 ## License
 
 MIT. Free and open source, for science.
